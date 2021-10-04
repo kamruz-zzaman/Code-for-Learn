@@ -1,3 +1,4 @@
+// failed data error messege
 import React from 'react';
 import error from '../../Images/404-error.jpg'
 

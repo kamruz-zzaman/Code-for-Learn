@@ -1,5 +1,5 @@
 import React from 'react';
-
+// set about us component data
 const EduSys = () => {
     return (
         <div className="row  g-5 mt-5 contact-bg">

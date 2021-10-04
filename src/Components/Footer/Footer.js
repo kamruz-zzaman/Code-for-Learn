@@ -1,3 +1,4 @@
+// Footer setting
 import React from 'react';
 import FooterLogo from '../../Images/Footer-logo.png'
 

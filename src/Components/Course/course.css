@@ -1,12 +1,15 @@
+/* set img sizing */
 .Img-height{
     height: 300px;
     border-radius: 10px;
 }
+/* button resizing */
 .btn-size{
     width: 100px;
     text-align: center;
     margin: auto;
 }
+/* styling card */
 .card-style{
     border: 1px solid blue;
     border-radius: 10px;

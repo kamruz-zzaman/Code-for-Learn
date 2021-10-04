@@ -10,7 +10,7 @@ import Error404 from './Components/Error404/Error404';
 import Courses from './Components/Courses/Courses';
 import About from './Components/About/About';
 import Contact from './Components/Contact us/Contact';
-
+// add routing and their path
 function App() {
   return (
     <div className="App">

@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import './headerImg.css'
 
 const Headerimage = () => {
+    // set top of home component img
     return (
         <div>
             <div className="header-cover">

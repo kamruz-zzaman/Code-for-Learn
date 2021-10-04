@@ -1,6 +1,6 @@
 import React from 'react';
 import './education-icon.css'
-
+// set withUs data
 const WithUs = () => {
     return (
         <div className=" ms-5 withus my-5 ">

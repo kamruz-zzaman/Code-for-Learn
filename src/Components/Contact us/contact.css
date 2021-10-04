@@ -1,16 +1,21 @@
+/* adding contact background */
 .contact-bg{
     background-color: rgb(250, 249, 246);
 }
+/* icon resizing */
 .contact-icon{
     font-size: 60px;
     color: rgba(7, 53, 114, 0.719);
 }
+/* set text alignment */
 .text-alignment{
     text-align: center;
 }
+/* button allignment set */
 .btn-align{
     margin-left: 15px;
 }
+/* set icon color */
 .get-icon{
     color: tomato;
     font-size: 40px;

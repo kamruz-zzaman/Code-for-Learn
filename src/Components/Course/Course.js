@@ -2,7 +2,9 @@ import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import './course.css'
 const Course = (props) => {
+    // distructuring
     const { CourseName, Img, fee } = props.course;
+    // dynamically adding data
     return (
         <Col>
             <Card className="card-style">

@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../../Images/course-1.jpg'
 import './learn-info.css'
-
+// info data adding
 const LearningInfo = () => {
     return (
         <div className="row g-5 mt-3">

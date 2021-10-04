@@ -1,3 +1,4 @@
+// set home component
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,11 +9,12 @@ import LearningInfo from '../Learning-Details/LearningInfo';
 const Home = () => {
     const [courses, setCourses] = useState([])
     useEffect(() => {
-
+        // load data
         fetch('./fakeData.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, []);
+    // set data
     return (
         <div>
             <Headerimage></Headerimage>

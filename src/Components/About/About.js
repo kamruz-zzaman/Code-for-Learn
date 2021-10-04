@@ -5,12 +5,15 @@ import Instrucor from '../Instructor/Instructor';
 import WithUs from '../Why-with-us/WithUs';
 
 const About = () => {
+    // set state
     const [instructors, setInstructors] = useState([])
+    // load data
     useEffect(() => {
         fetch("./fakedata2 .json")
             .then(res => res.json())
             .then(data => setInstructors(data))
-    }, [])
+    }, []);
+    // set data
     return (
         <div>
             <EduSys></EduSys>
