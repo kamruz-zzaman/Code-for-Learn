@@ -1,0 +1,13 @@
+.Img-height{
+    height: 300px;
+    border-radius: 10px;
+}
+.btn-size{
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+.card-style{
+    border: 1px solid blue;
+    border-radius: 10px;
+}

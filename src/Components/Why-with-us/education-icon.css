@@ -1,0 +1,19 @@
+.education-icon{
+    font-size: 50px;
+    color: burlywood;
+}
+.withus{
+    /* width: 50%; */
+}
+.div-align{
+    text-align: left;
+}
+.alignment-center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+hr{
+    margin: auto;
+    width: 50%;
+}

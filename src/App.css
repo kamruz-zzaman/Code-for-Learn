@@ -9,7 +9,7 @@
 .selected
   {
     font-weight: bold;
-    color: red
+    color: red;
   }
 
 @media (prefers-reduced-motion: no-preference) {

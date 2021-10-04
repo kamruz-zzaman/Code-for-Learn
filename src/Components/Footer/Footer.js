@@ -3,9 +3,9 @@ import FooterLogo from '../../Images/Footer-logo.png'
 
 const Footer = () => {
     return (
-        <div>
+        <div className="bg-black p-2">
             <img src={FooterLogo} alt="" />
-            <p>Copyright © 2021 Code for Learn</p>
+            <p className="f-black fw-bold ">Copyright © 2021 Code for Learn</p>
         </div>
     );
 };

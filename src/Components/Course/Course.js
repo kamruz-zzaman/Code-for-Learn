@@ -1,13 +1,20 @@
 import React from 'react';
-
+import { Card, Col, Button } from 'react-bootstrap';
+import './course.css'
 const Course = (props) => {
     const { CourseName, Img, fee } = props.course;
     return (
-        <div>
-            <img src={Img} alt="" />
-            <h1>HCourse Name: {CourseName}</h1>
-            <h5>Fee:{fee}</h5>
-        </div>
+        <Col>
+            <Card className="card-style">
+                <Card.Img className="Img-height" variant="top" src={Img} />
+                <Card.Body>
+                    <Card.Title>{CourseName}</Card.Title>
+                </Card.Body>
+                <p className="fw-bold"> Fee per Module: ${fee}</p>
+                <Button className="btn-size mb-3" variant="warning">Enroll</Button>
+            </Card>
+        </Col>
+
     );
 };
 

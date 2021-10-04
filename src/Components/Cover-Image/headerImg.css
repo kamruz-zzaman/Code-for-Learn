@@ -1,0 +1,18 @@
+.header-cover{
+    background-image: url(../../Images/header-cover.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.75;
+    position: relative;
+}
+.text-sizing{
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    left: 20px;
+}

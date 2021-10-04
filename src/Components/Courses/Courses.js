@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 
 const Courses = () => {
@@ -10,7 +11,7 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div>
+        <Row xs={2} md={3} className="g-4 m-3">
             {
                 courses.map(course =>
                     <Course
@@ -19,7 +20,7 @@ const Courses = () => {
                     ></Course>
                 )
             }
-        </div>
+        </Row>
     );
 };
 
