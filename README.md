@@ -1,6 +1,6 @@
 # Code for Learn
 
-The live host of this website is: (https://jovial-hawking-7c3ddd.netlify.app/).
+The live host of this website is: (https://codeforlearn.netlify.app/).
 
 ## About This Website
 
